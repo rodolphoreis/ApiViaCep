@@ -71,10 +71,14 @@ button:focus-visible {
   background-color: red;
   margin-left: 20px;
   border-radius: 5px;
-  font-size: 19px;
+  font-size: 20px;
   transition: 0.3s;
   border-style: none;
-  
+  top: 265px;
+  position: absolute;
+  left: 30px;
+  width: 280px;
+  height: 52px;
 }
 .Btn:hover{
   background-color: rgb(1, 13, 255);
@@ -84,21 +88,27 @@ button:focus-visible {
 }
 .InputCep{
   background-color: rgba(142, 139, 139, 0.749);
-  height: 40px;
-  width: 200px;
+  height: 52px;
+  width: 261px;
   border-radius: 5px;
   font-size: 20px;
   border: none;
   border-style: none;
   padding: 0px 10px;
-  
+  top: 184px;
+  position: absolute;
+  left: 49px;
 }
 .InputCep::placeholder{
   color: white;
 }
 .Text h5{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 22px;
+  font-size: 18px;
+  position: fixed;
+  top: 325px;
+  text-align: justify;
+  left: 52px;
 }
 #root{
   font-size: 25px;
@@ -106,11 +116,13 @@ button:focus-visible {
   background-color: white;
 }
 .Image{
-  position: relative;
+  position: fixed;
+  top: 256px;
+
 }
 .Image .Img{
-  width: 400px;
-  top: -178px;
-  left: -26px;
+  width: 310px;
+  top: -206px;
+  left: -163px;
   position: absolute;
 }
