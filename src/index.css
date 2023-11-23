@@ -69,14 +69,15 @@ button:focus-visible {
 }
 .Btn{
   background-color: red;
-  margin-left: 20px;
+  margin: 20px 30px;
+  
   border-radius: 5px;
   font-size: 20px;
   transition: 0.3s;
   border-style: none;
-  top: 265px;
-  position: absolute;
-  left: 30px;
+  /* top: 265px; */
+  /* position: absolute; */
+ /*  left: 30px; */
   width: 280px;
   height: 52px;
 }
@@ -95,9 +96,10 @@ button:focus-visible {
   border: none;
   border-style: none;
   padding: 0px 10px;
-  top: 184px;
-  position: absolute;
-  left: 49px;
+  margin-top: 40px;
+  /* top: 184px; */
+ /*  position: absolute; */
+  /* left: 49px; */
 }
 .InputCep::placeholder{
   color: white;
@@ -105,24 +107,25 @@ button:focus-visible {
 .Text h5{
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
-  position: fixed;
-  top: 325px;
+  /* position: fixed; */
+ /*  top: 325px; */
   text-align: justify;
-  left: 52px;
+  /* left: 52px; */
 }
 #root{
   font-size: 25px;
   color: rgb(0, 0, 0);
   background-color: white;
 }
-.Image{
+/* .Image{
   position: fixed;
   top: 256px;
 
-}
+} */
 .Image .Img{
   width: 310px;
-  top: -206px;
-  left: -163px;
-  position: absolute;
+  margin-top: 30px;
+  /* top: -206px;
+  left: -130px;
+  position: absolute; */
 }
